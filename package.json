@@ -5,7 +5,7 @@
     "assert",
     "browser"
   ],
-  "version": "1.4.1",
+  "version": "1.4.2",
   "homepage": "https://github.com/isysd-mirror/iso-assert/",
   "repository": {
     "type": "git",
@@ -14,12 +14,14 @@
   "main": "./assert.node.js",
   "module": "./assert.js",
   "dependencies": {
+    "esm": "../esm",
     "iso-buffer": "../iso-buffer",
-    "iso-inherits": "../iso-inherits",
+    "iso-inherits": "../iso-inherits"
+  },
+  "peerDependencies": {
     "iso-util": "../iso-util"
   },
   "devDependencies": {
-    "esm": "../esm",
     "mocha": "~1.21.4",
     "zuul": "~3.10.0",
     "zuul-ngrok": "^4.0.0"

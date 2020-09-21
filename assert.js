@@ -28,9 +28,9 @@
 
 'use strict'
 
-import { Buffer } from '../buffer/buffer.js'
-import { isError, isFunction, isRegExp, isDate, inspect as utilInspect } from '../util/util.js'
-import { inherits } from '../inherits/inherits.js'
+import { Buffer } from '../iso-buffer/buffer.js'
+import { isError, isFunction, isRegExp, isDate, inspect as utilInspect } from '../iso-util/util.js'
+import { inherits } from '../iso-inherits/inherits.js'
 
 var hasOwn = Object.prototype.hasOwnProperty
 var pSlice = Array.prototype.slice
