@@ -20,7 +20,7 @@
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 var nodeAssert = require('assert');
-var ourAssert = require('./');
+var ourAssert = require('./assert.node.js');
 var keys = Object.keys;
 if (process.env.TEST_NATIVE === true) {
   tests(nodeAssert, 'node assert');
